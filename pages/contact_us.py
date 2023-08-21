@@ -13,4 +13,4 @@ From: {user_email}
     sub_btn=st.form_submit_button("submit")
     if sub_btn:
         send_email(final_message)
-        st.info("your message sended!")
+        st.info("your message sent!")
